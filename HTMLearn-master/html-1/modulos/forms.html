@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Formulários</title>
+</head>
+
+<body>
+    <div class="container-md">
+        <div class="row mt-3">
+            <div class="col">
+                <h1 id="tema">Formulários</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p>São usados para colecionar inputs do utilizador.</p>
+                <p>Estes permitem a introdução de valores de diferentes tipos.</p>
+                <p>São definidos através da tag &lt;form&gt; </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p>Um <i>input</i> pode ser mostrado de diferentes maneiras através do atributo <i>type</i></p>
+                <h6>Alguns exemplos</h6>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Input</th>
+                            <th scope="col">Descrição</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>&lt;input type="text"&gt;</td>
+                            <td>Um input para texto</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;input type="radio"&gt;</td>
+                            <td>Mostra um radio button</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;input type="checkbox"&gt;</td>
+                            <td>Mostra uma checkbox</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;input type="submit"&gt;</td>
+                            <td>Mostra um butão de submit</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;input type="button"&gt;</td>
+                            <td>Mostra um butão clicável</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p>Para além do elemento input o elemento form conta ainda com outros elemnetos</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Tag</th>
+                            <th scope="col">Descrição</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>textarea</td>
+                            <td>Define um controlo de input de texto multilinha</td>
+                        </tr>
+                        <tr>
+                            <td>label</td>
+                            <td>Define uma label para um controlo de input</td>
+                        </tr>
+                        <tr>
+                            <td>fieldset</td>
+                            <td>Agrupa elementos relacionados num formulário</td>
+                        </tr>
+                        <tr>
+                            <td>legend</td>
+                            <td>Define uma legenda para um controlo fieldsett</td>
+                        </tr>
+                        <tr>
+                            <td>select</td>
+                            <td>Define uma lista pendente</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <div class="container-md">
+        <div class="row">
+            <div class="col">
+                <h1>Video Tutorial</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col" align="center">
+                <video width="1200" height="600"src="/assets/tutoriais/formulários.mp4" controls>
+                </video>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="container-md">
+        <div class="row">
+            <div class="col">
+                <h1>Praticar</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col" id="listaex">
+                <ul>
+                    <a href="../exercicios/forms.html#ex1">
+                        <li>Exercicio 1</li>
+                    </a>
+                    <a href="../exercicios/forms.html#ex2">
+                        <li>Exercicio 2</li>
+                    </a>
+                    <a href="../exercicios/forms.html#ex3">
+                        <li>Exercicio 3</li>
+                    </a>
+                    <a href="../exercicios/forms.html#ex4">
+                        <li>Exercicio 4</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+        <div class="modal fade" id="mdPergunta" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Pergunta</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <form id="frmPergunta">
+                        <div class="modal-body">
+                            <h6 id="pergunta"></h6>
+                            <div class="form-group">
+                                <label for="resposta">Resposta</label>
+                                <input type="text" class="form-control" id="resposta" />
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="submit" class="btn" id="btnResposta">Responder</button>
+                            <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </form>
+                    <div class="row">
+                        <div class="col" id="msgResposta">
+                            
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+    
+    <script type="module" src="/js/views/navbarView.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="/js/views/annotationsView.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+.pExercicio {
+    margin: 0;
+    padding-left: 2%;
+}
+
+.pExercicioTab1 {
+    margin: 0;
+    padding-left: 4%;
+}
+
+.pExercicioTab2 {
+    margin: 0;
+    padding-left: 6%;
+}
+
+.inputExercicioPequeno {
+    height: 5%;
+    width: 10%;
+    margin-left: 2%;
+    font-size: 14px;
+}
+
+.inputExercicio {
+    height: 5%;
+    width: 40%;
+    margin-left: 2%;
+    font-size: 14px;
+}
+
+.inputExercicioTab1 {
+    height: 5%;
+    width: 40%;
+    padding-left: 2%;
+    margin-left: 2%;
+    font-size: 14px;
+}
+
+.inputExercicioTab2 {
+    height: 5%;
+    width: 40%;
+    padding-left: 4%;
+    margin-left: 2%;
+    font-size: 14px;
+}
+
+.btn.btn-default {
+    margin-left: 1%;
+}
+
+.checkLinha {
+    color: white;
+}
+
+.pSemMargem {
+    margin: 0;
+}
+
+.quizz {
+    margin-left: 1%;
+}
+
+.col-5.mt-3 {
+    justify-content: start;
+}
+
+#divQuizz {
+    display: none;
+}
+
+#startQuizz {
+    margin: 1%;
+}
+
+#contador {
+    margin: 1%;
+}
+
+#cont,
+#min,
+#seg {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.h2exercicio {
+    color: black;
+}

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Media</title>
+</head>
+
+<body>
+    <div class="container-md">
+        <div class="row mt-3">
+            <div class="col">
+                <h1 id="tema">Media</h1>
+                <h2>HTML Video</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p>O elemento de Html &lt;video&gt; é usado para mostrar um video numa página web</p>
+                <h6>Exemplo:</h6>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col" id="exemplo">
+                <div class="col" id="exemplo">
+                    <p>&lt;video&gt; style="width:600px;max-width:100px;" controls&gt;</p>
+                    <p>&emsp; &lt;source src="video.mp4" type="video/mp4"&gt;</p>
+                    <p>&emsp; &lt;source src="video.ogg" type="video/ogg"&gt;</p>
+                    <p>&emsp; Your browser does not support HTML5 video.</p>
+                    <p>&lt;/video&gt;</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container-md">
+        <div class="row mt-3">
+            <div class="col">
+                <p>O atributo <i>controls</i> adiciona os controlos de video, tais como reproduzir, pausa e volume.</p>
+                <p>O elemento &lt;source&gt; permite especificar os ficheiros de video alternativos, dos quais o browser
+                    poderá escolher. Este usará o primeiro formato que reconhecer.</p>
+                <p>Para começar um video automaticamente podemos utilizar o atributo <i>autoplay</i>.</p>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col" id="exemplo">
+                <div class="col" id="exemplo">
+                    <p>&lt;video&gt; style="width:600px;max-width:100px;" autoplay&gt;</p>
+                    <p>&emsp; &lt;source src="video.mp4" type="video/mp4"&gt;</p>
+                    <p>&emsp; &lt;source src="video.ogg" type="video/ogg"&gt;</p>
+                    <p>&emsp; Your browser does not support HTML5 video.</p>
+                    <p>&lt;/video&gt;</p>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col">
+                <p>Adiciona <i>muted</i> depois de <i>autoplay</i> para o video começar automaticamente mas sem som.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-md">
+        <div class="row">
+            <div class="col">
+                <h1>Video Tutorial</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col" align="center">
+                <video width="1200" height="600"src="/assets/tutoriais/video.mp4" controls>
+                </video>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-md">
+        <div class="row">
+            <div class="col">
+                <h2>HTML Imagens</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p>Imagens servem para melhorar o design e aparência da vossa página web.</p>
+                <p>A tag &lt;img&gt; é usada para colocar uma imagem na página web.</p>
+                <p>A tag &lt;img&gt; é vazia, apenas contém atributos e não tem uma tag para fechar.</p>
+                <p>A tag &lt;img&gt; tem dois atributos obrigatórios, <i>"src"</i> que especifica o caminho para a imagem, e <i>"alt"</i> que especifica um texto alternativo para a imagem</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h6>Exemplo:</h6>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col" id="exemplo">
+                <div class="col" id="exemplo">
+                    <p>&lt;img src="url" alt="textoalternativo"&gt;</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p>Podes ainda acrescentar os atributos <i>"width"</i> e <i>"height"</i>, tal como os nomes indicam permitem-nos mudar o comprimento e a altura e são sempre definidos em pixeis</p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <div class="container-md">
+        <div class="row">
+            <div class="col">
+                <h1>Imagens Tutorial</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col" align="center">
+                <video width="1200" height="600"src="/assets/tutoriais/Imagens.mp4" controls>
+                </video>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="container-md">
+        <div class="row">
+            <div class="col">
+                <h1>Praticar</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col" id="listaex">
+                <ul>
+                    <a href="../exercicios/media.html#ex1">
+                        <li>Exercicio 1</li>
+                    </a>
+                    <a href="../exercicios/media.html#ex2">
+                        <li>Exercicio 2</li>
+                    </a>
+                    <a href="../exercicios/media.html#ex3">
+                        <li>Exercicio 3</li>
+                    </a>
+                    <a href="../exercicios/media.html#ex4">
+                        <li>Exercicio 4</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+        <div class="modal fade" id="mdPergunta" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Pergunta</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <form id="frmPergunta">
+                        <div class="modal-body">
+                            <h6 id="pergunta"></h6>
+                            <div class="form-group">
+                                <label for="resposta">Resposta</label>
+                                <input type="text" class="form-control" id="resposta" />
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="submit" class="btn" id="btnResposta">Responder</button>
+                            <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </form>
+                    <div class="row">
+                        <div class="col" id="msgResposta">
+                            
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+    <script type="module" src="/js/views/navbarView.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="/js/views/annotationsView.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
